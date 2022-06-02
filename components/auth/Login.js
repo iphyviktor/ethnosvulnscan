@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <div className='flex h-screen w-full'>
-        <div style="background-image: url('/images/Pen_Testing.jpg');" className="w-full h-full bg-contain">Test</div>
+        <div className="w-full h-full bg-contain">Test</div>
         <div>
         <h1>Login</h1>
         <form onSubmit={submitHandler}>

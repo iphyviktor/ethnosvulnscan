@@ -4,10 +4,13 @@ import Login from '../components/auth/Login'
 
 export default function login(){
   return (
-    // <Layout title="Login">
-    //     <Login />
-    // </Layout>
-    <Login />
+    <div>
+      
+        <Login />
+    
+      
+    </div>
+      
     
   )
 }

@@ -7,7 +7,10 @@ const register = () => {
     // <Layout title="Register">
     //     <Register />
     // </Layout>
-    <Register />
+    <div>
+      <Register />
+    </div>
+    
   )
 }
 
