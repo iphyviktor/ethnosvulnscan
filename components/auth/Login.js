@@ -28,7 +28,9 @@ const Login = () => {
     }
 
   return (
-    <div>
+    <div className='flex h-screen w-full'>
+        <div style="background-image: url('/images/Pen_Testing.jpg');" className="w-full h-full bg-contain">Test</div>
+        <div>
         <h1>Login</h1>
         <form onSubmit={submitHandler}>
             <input type='text' 
@@ -38,18 +40,22 @@ const Login = () => {
             onChange={(e) => setUsername(e.target.value)} 
             // pattern ='\S+@\S+\.\S+'
             // title='Your username is invalid'
+            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
             />
             <br/>
             <input type={`password`} 
             placeholder='Password' 
             required 
             value={password} onChange={(e) => setPassword(e.target.value)} 
+            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 mt-4"
             />
             <br/>
-            <button type='submit'>
+            <button type='submit' className='bg-red-600 hover:bg-red-400 duration-500 text-white py-2 px-6 rounded-sm text-sm mt-4'>
                 {loading ? 'Authenticating...' : 'Login'}
             </button>
         </form>
+        </div>
+        
     </div>
   )
 }

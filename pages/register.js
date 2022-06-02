@@ -4,9 +4,10 @@ import Register from '../components/auth/Register'
 
 const register = () => {
   return (
-    <Layout title="Register">
-        <Register />
-    </Layout>
+    // <Layout title="Register">
+    //     <Register />
+    // </Layout>
+    <Register />
   )
 }
 

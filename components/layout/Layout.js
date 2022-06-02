@@ -13,7 +13,7 @@ const Layout = ({children, title = 'Ethnos scan - Ethnos vulnerability scanner'}
 
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }
