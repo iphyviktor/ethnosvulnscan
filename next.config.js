@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    API_URL: 'https://petscan.herokuapp.com'
+    API_URL: 'https://ethnosscan.herokuapp.com'
   },
 }
 

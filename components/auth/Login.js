@@ -31,8 +31,8 @@ const Login = () => {
   return (
     <div className='flex h-screen w-full'>
         <div className="w-3/5 h-full bg-auth-bg-img bg-no-repeat bg-cover bg-center">
-        <div className='m-auto text-center self-center'>
-                <h1 className='text-4xl text-white font-bold'>Ethnos Vulnerability Scanner</h1>
+        <div className='m-auto text-center px-4 leading-8'>
+                <h1 className='text-4xl text-white font-bold mb-8'>Ethnos Vulnerability Scanner</h1>
                 <p className='text-white font-bold'>Using up-to-date CVEs, gain insight into the <br/>security posture of your infrastructure</p>
             </div>   
         </div>
